@@ -1,16 +1,18 @@
 <div style="position: absolute;left:10px;top:10px;bottom: 10px;width:200px;">
-    <accordion close-others="oneAtATime">
-        <accordion-group heading="博客" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
-            2014年9月3日 博客开通
+    <accordion close-others="false">
+        <accordion-group heading="博客" is-open="true" >
+            <a ng-repeat="blog in blogs" class="link" ng-click="addtab(blog,'blogs')">{{blog}}</a>
         </accordion-group>
-        <accordion-group heading="angular学习" >
-            1111<br>
-            222<br>
-            333<br>
-            444<br>
+        <accordion-group heading="学习" is-open="true">
+            <a ng-repeat="learn in learns" class="link" ng-click="addtab(learn,'learns')">{{learn}}</a>
         </accordion-group>
     </accordion>
 </div>
-<div style="position: absolute;left:210px;right:10px;top:10px;bottom: 10px;width:200px;">
-    
+<div style="position: absolute;left:220px;right:10px;top:10px;bottom: 10px;">
+    <tabset>
+        <tab heading="payallmoney的博客">payallmoney的博客</tab>
+        <tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" disabled="tab.disabled">
+            <div ng-include="tab.url"></div>
+        </tab>
+    </tabset>
 </div>
