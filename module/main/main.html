@@ -10,7 +10,7 @@
 </div>
 <div style="position: absolute;left:220px;right:10px;top:10px;bottom: 10px;">
     <tabset>
-        <tab heading="payallmoney的博客">payallmoney的博客</tab>
+        <tab heading="payallmoney的博客"> <div ng-include="'/module/blogs/博客内容.html'"></div></tab>
         <tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" disabled="tab.disabled">
             <div ng-include="tab.url"></div>
         </tab>
