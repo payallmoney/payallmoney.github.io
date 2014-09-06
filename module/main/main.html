@@ -4,7 +4,7 @@
             <a ng-repeat="blog in blogs" class="link" ng-click="addtab(blog,'blogs')">{{blog}}</a>
         </accordion-group>
         <accordion-group heading="学习" is-open="true">
-            <a ng-repeat="learn in learns" class="link" ng-click="addtab(learn,'learns')">{{learn}}</a>
+            <a ng-repeat="learn in learns" class="link" ng-click="addtab(learn,'learns')" style="display: block;">{{learn}}</a>
         </accordion-group>
     </accordion>
 </div>
