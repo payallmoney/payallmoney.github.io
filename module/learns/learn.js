@@ -1,1 +1,1 @@
-var learns = ['angularjs学习'];
+var learns = ['angularjs学习','markdown'];
