@@ -1,5 +1,6 @@
 @cd /D D:\workspace\payallmoney.github.io
 @git add -A
 @git commit -a -m all
-@git pull -q --commit --no-edit
+C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe /command:push /path:"D:\workspace\payallmoney.github.io\"
+
 @pause
