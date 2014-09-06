@@ -291,15 +291,32 @@ img {
 </style>
 </head>
 <body>
-<h3 id="-">博客内容</h3>
+<h1 id="markdown-">markdown 简单说明</h1>
+<p>详细说明:</p>
+<ul>
+<li>中文版 <a href="http://wowubuntu.com/markdown/">http://wowubuntu.com/markdown/</a> </li>
+<li>英文版 <a href="http://daringfireball.net/projects/markdown/syntax">http://daringfireball.net/projects/markdown/syntax</a><h4 id="-h4">标题 h4</h4>
 <h4 id="-">标题</h4>
+</li>
+</ul>
+<h4 id="-">区块</h4>
+<pre><code>&gt;区块
+&gt;&gt;区块嵌套</code></pre>
 <blockquote>
 <p>区块</p>
 <blockquote>
 <p>区块嵌套</p>
-<blockquote>
-<p>区块嵌套</p>
+</blockquote>
+</blockquote>
 <h4 id="-">列表</h4>
+<pre><code>1. 项目1
+2. 项目2
+* 项目1
+* 项目2
++ 项目1
++ 项目2
+- 项目1
+- 项目2</code></pre>
 <ol>
 <li>项目1</li>
 <li>项目2</li>
@@ -314,19 +331,32 @@ img {
 </ul>
 <ul>
 <li>项目1</li>
-<li>项目2<h4 id="-">代码-四个空格</h4>
-  script = new function(){<br>  }<h4 id="-">分割线</h4>
-</li>
+<li>项目2</li>
 </ul>
+<h4 id="-">代码-四个空格</h4>
+<pre><code>script = new function(){
+}</code></pre>
+<h4 id="-">分割线 四个*</h4>
+<pre><code>****</code></pre>
 <hr>
 <h4 id="-">连接</h4>
-<p>[id]:  <a href="http://example.com/" title="Title">an example</a> </p>
+<p><a href="http://example.com/" title="Title">an example</a> </p>
+<pre><code>[an example](http://example.com/ &quot;Title&quot;) </code></pre>
 <h4 id="-">强调</h4>
+<pre><code>*强调* 
+_强调_ 
+**强调** 
+__强调__</code></pre>
 <p><em>强调</em><br><em>强调</em><br><strong>强调</strong><br><strong>强调</strong></p>
-</blockquote>
-</blockquote>
-</blockquote>
-<p>小段代码 <code>printf()</code><br><img src="../../images/sprite_download.png" alt="图片"><br><a href="http://www.baidu.com/自动连接">http://www.baidu.com/自动连接</a><br>test!</p>
+<h4 id="-">小段代码</h4>
+<pre><code>`printf()`</code></pre>
+<p><code>printf()</code></p>
+<h4 id="-">图片</h4>
+<pre><code>![图片](../../images/sprite_download.png)</code></pre>
+<p><img src="../../images/sprite_download.png" alt="图片"></p>
+<h4 id="-">自动链接</h4>
+<pre><code>&lt;http://payallmoney.github.com/&gt;</code></pre>
+<p><a href="http://payallmoney.github.com/">http://payallmoney.github.com/</a></p>
 
 </body>
 </html>
