@@ -10,3 +10,7 @@ a.link{
     cursor: pointer;
     text-decoration: none;
 }
+
+ul.nav-tabs>li>a{
+    cursor:pointer;
+}
