@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e611f52-2db4-4fd9-a530-aae8dcf22471" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/main/main.html" afterPath="$PROJECT_DIR$/module/main/main.html" />
-    </list>
+    <list default="true" id="8e611f52-2db4-4fd9-a530-aae8dcf22471" name="Default" comment="" />
     <ignored path="payallmoney.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -798,7 +796,7 @@
       <workItem from="1409875004076" duration="39000" />
       <workItem from="1409914777948" duration="2725000" />
       <workItem from="1409967460356" duration="1184000" />
-      <workItem from="1409980936249" duration="1656000" />
+      <workItem from="1409980936249" duration="2254000" />
     </task>
     <task id="LOCAL-00001" summary="ng-repeat">
       <created>1409967641241</created>
@@ -808,7 +806,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15819000" />
+    <option name="totallyTimeSpent" value="16417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
